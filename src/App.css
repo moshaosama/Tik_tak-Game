@@ -1,0 +1,33 @@
+button {
+  height: 100px;
+  width: 100px;
+  border: transparent;
+  font-weight: bolder;
+}
+.col {
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 20px 20px;
+}
+#Page {
+  position: absolute;
+  left: 32pc;
+  top: 2pc;
+}
+@media (max-width: 433px) {
+  button {
+    height: 50px;
+    width: 50px;
+    border: transparent;
+  }
+  .col {
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 20px 8px;
+  }
+  #Page {
+    position: absolute;
+    left: 4pc;
+    top: 8pc;
+  }
+}
