@@ -4,41 +4,17 @@ function Choose() {
   return (
     <>
       <div>
-        <button
-          type="button"
-          style={{
-            height: "100px",
-            width: "100px",
-            margin: "15pc 28pc",
-            border: "transparent",
-            borderRadius: "30px",
-            fontSize: "30px",
-            fontWeight: "bolder",
-          }}
-        >
+        <button type="button" id="Btn1">
           X
         </button>
-        <button
-          type="button"
-          style={{
-            height: "100px",
-            width: "100px",
-            border: "transparent",
-            borderRadius: "30px",
-            fontSize: "30px",
-            fontWeight: "bolder",
-          }}
-        >
+        <button id="Btn2" type="button">
           O
         </button>
       </div>
       <div
+        id="Start"
         className="btn btn-outline-primary"
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          margin: "-5pc 40pc",
-        }}
+        
       >
         <Link to={"Game"}>Start Game</Link>
       </div>

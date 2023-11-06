@@ -4,6 +4,11 @@ button {
   border: transparent;
   font-weight: bolder;
 }
+#Start {
+  display: flex;
+  justify-content: center;
+  margin: -5pc 40pc;
+}
 .col {
   font-size: 30px;
   font-weight: bolder;
@@ -29,5 +34,26 @@ button {
     position: absolute;
     left: 4pc;
     top: 8pc;
+  }
+  #Btn2 {
+    height: 100px;
+    width: 100px;
+    margin: 12pc 86px;
+    border: 1px solid;
+    border-radius: 30px;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  #Btn1 {
+    height: 100px;
+    width: 100px;
+    margin: 15px 28px;
+    border: 1px solid;
+    border-radius: 30px;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  #Start {
+    margin: -5pc 7pc;
   }
 }
